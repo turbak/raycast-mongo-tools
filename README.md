@@ -1,2 +1,3 @@
-# raycast-mongo-tools
-Extension for Raycast for working with mongodb
+# Mongo Tools
+
+Simple tools to work with mongodb
