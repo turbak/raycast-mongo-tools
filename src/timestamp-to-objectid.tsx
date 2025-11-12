@@ -8,8 +8,9 @@ export default function Command() {
         subtitle="Use the date picker to select a date"
         actions={
           <ActionPanel title="Convert Timestamp to ObjectId">
-            <Action.PickDate title="Pick a Date..." onChange={
-              (date) => {
+            <Action.PickDate
+              title="Pick a Date..."
+              onChange={(date) => {
                 if (!date) {
                   return;
                 }
@@ -19,8 +20,8 @@ export default function Command() {
                 const objectId = hexTimestamp + "0000000000000000";
                 Clipboard.copy(objectId);
                 showHUD(`ObjectId copied: ${objectId}`);
-              }
-            } />
+              }}
+            />
           </ActionPanel>
         }
       />

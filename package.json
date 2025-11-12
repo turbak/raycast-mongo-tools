@@ -26,6 +26,7 @@
       "mode": "view"
     }
   ],
+  "version": "0.1.0",
   "dependencies": {
     "@raycast/api": "^1.103.6",
     "@raycast/utils": "^1.17.0"

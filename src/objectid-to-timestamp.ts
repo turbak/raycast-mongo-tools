@@ -24,5 +24,4 @@ export default async function main() {
   } catch (error) {
     showFailureToast("Error converting ObjectId to timestamp: " + (error as Error).message);
   }
-  
 }
